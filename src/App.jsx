@@ -10,7 +10,7 @@ function App() {
    
   return (
     <>
-    <Router>
+ 
       <HamburgerMenu />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -19,7 +19,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />  
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </Router>
+ 
     </>
   )
 }
